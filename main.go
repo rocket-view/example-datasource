@@ -23,5 +23,6 @@ func main() {
 		panic(token.Error())
 	}
 	go sources.SineWave(c)
+	go sources.BeatWave(c)
 	select {}
 }
